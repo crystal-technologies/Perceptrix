@@ -7,3 +7,5 @@ This is the revolutionary part of the entire CRYSTAL project. This is the part w
 `train.py` will start the training process and create an AI model. It will most likely perform terrible if wikipedia.txt is the only data you trained it on. It will require way more data than that.
 
 `train+chat.py` is basically the same as `train.py` but you can talk to CRYSTAL after the training has been completed.
+
+Lastly `distributed.py` will also work as train.py but is meant for distributed learning. If you have mulitple computers connected for the training process to go faster, this is probably what you can use.
